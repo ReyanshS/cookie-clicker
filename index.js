@@ -40,7 +40,9 @@ function buyDoubleCookies(){
     }
 }
 window.onload = function(){
+    if(cookiecount != 0){
         load()
+    }
 }
 window.onbeforeunload = function(){
     save();
